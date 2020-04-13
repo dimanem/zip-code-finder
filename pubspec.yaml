@@ -1,0 +1,31 @@
+name: zipcodefinder
+description: A simple flutter app for finding zip codes by address
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+  flutter_google_places: ^0.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Quattrocento
+      fonts:
+        - asset: fonts/Quattrocento-Regular.ttf
